@@ -1,0 +1,7 @@
+{
+  "name": "queen_store",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
