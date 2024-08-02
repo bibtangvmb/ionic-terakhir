@@ -62,7 +62,7 @@
           <ion-grid>
             <ion-row>
               <ion-col style="text-align: right">
-                <ion-button @click="additem(index)" fill="clear">
+                <ion-button @click="addItem(index)" fill="clear">
                   <ion-icon slot="icon-only" :icon="add"></ion-icon>
                 </ion-button>
               </ion-col>
@@ -100,10 +100,10 @@
 
 <script setup lang="ts">
 import { toastController } from "@ionic/vue";
-import { ref, toValue } from "vue";
+import { ref } from "vue";
 import { axios } from "@/services/axios";
 import { useRouter } from "vue-router";
-import { arrowBackOutline,save,cameraOutline,add,remove } from "ionicons/icons";
+import { arrowBackOutline,cameraOutline,add,remove } from "ionicons/icons";
 import { cart,clearCart } from "@/services/cart";
 import { stuff } from "@/services/stuff";
 import { user } from "@/services/user";
